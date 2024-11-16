@@ -6,7 +6,10 @@
 // Look up documentation for Math.abs if you've not used it before
 
 console.log(Math.abs);
+//my prediction;error
 console.log(Math.abs());
+//Nan because no value is passed
 console.log(Math.abs(-100));
+//100 thats the absolute value.
 
 // Run the file with Node to check your answer
