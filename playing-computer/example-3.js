@@ -9,6 +9,7 @@ function writeRatioWithPercentage(ratio) {
   const firstPart = Number(ratio[0]);
   const secondPart = Number(ratio[2]);
   const allParts = firstPart + secondPart;
+  
 
   const firstPartPercentage = convertToPercentage(firstPart / allParts);
   const secondPartPercentage = convertToPercentage(secondPart / allParts);

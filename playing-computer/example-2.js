@@ -9,7 +9,7 @@ function getFirstChar(str) {
 }
 
 function getLastChar(str) {
-  const lastCharIndex = str.length - 1;
+  const lastCharIndex = str.length -1;
   return str[lastCharIndex];
 }
 

@@ -6,7 +6,7 @@ Can you fix the bug in this function
 
 function getLargestNum(arr) {
     let largestNum = 0;
-    for (let i = 0; i <= arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
       if (arr[i] > largestNum) {
         largestNum = arr[i];
       }
@@ -15,4 +15,9 @@ function getLargestNum(arr) {
   }
   let arr = [1, 2, 3, 4, 5];
 
-  getLargestNum(arr)
+  console.log(getLargestNum(arr))
+
+  arr = [9,8,7,6];
+
+  console.log(getLargestNum(arr))
+  

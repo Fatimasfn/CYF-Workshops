@@ -4,13 +4,17 @@
 // another person will "play" the add frame
 
 function add(a, b) {
-  return a + b;
+  
+  return a + b * z;
+
 }
 
 let x = 10;
 let y = 32;
 x = x + 1;
 y = y - 4;
+let z = 6;
 console.log("x is ", x);
 console.log("y is ", y);
 console.log(add(x, y));
+console.log(x);
