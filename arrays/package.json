@@ -1,0 +1,14 @@
+{
+  "name": "arrays",
+  "version": "1.0.0",
+  "description": "This workshop aims to _check your understanding_.",
+  "main": "0.js",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
