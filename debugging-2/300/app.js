@@ -15,13 +15,14 @@ form.addEventListener("submit", (event) => {
 //4 functions to check validations:
 const validateForm = (inputArr) => {
   inputArr.forEach((input) => {
-    if (input.value === "") {
+    if (input.value === " ") {
       showError(input, `This field is required`);
     } else {
-      showSuccess(inputArr);
+      showSuccess(input);
     }
   });
 };
+
 const checkPasswordLength = (password, min, max) => {
   if (password.length < min || password.length > max) {
     showError(password, `Between ${min} to ${max} characters`);

@@ -1,6 +1,7 @@
 const form = document.getElementById("form");
 const usernameElement = document.getElementById("username");
 const passwordElement = document.getElementById("password");
+//n2self: error was in referencing the wrong id
 
 function helpMe(field, element) {
   console.log(field, element);

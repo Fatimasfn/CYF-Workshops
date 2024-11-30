@@ -4,12 +4,12 @@ const passwordElement = document.getElementById("password");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  const username = usernameElement.val;
-  const password = passwordElement.val;
-  let usernameLength = username.length();
-  let passwordLength = password.length();
+  const username = usernameElement.value;//changed .val to value
+  const password = passwordElement.value;//changed .val to value
+  let usernameLength = username.length;
+  let passwordLength = password.length;
 
-  if (usernameLength > 4 && passwordLength > 4) {
+  if (usernameLength >= 4 && passwordLength >= 4) {
     console.log("-------------------------");
     console.log("Success you have finished");
     console.log("-------------------------");
